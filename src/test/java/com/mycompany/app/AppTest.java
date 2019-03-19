@@ -40,6 +40,14 @@ public class AppTest
         }
     }
 
+    @Test
+    public void testFail()
+    {
+        int a =2;
+        int b= 3;
+        assertEquals(4, a+b);
+    }
+
     @After
     public void cleanUpStreams() {
         System.setOut(null);
