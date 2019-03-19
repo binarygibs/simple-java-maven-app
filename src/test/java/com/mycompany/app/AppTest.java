@@ -45,7 +45,7 @@ public class AppTest
     {
         int a =2;
         int b= 3;
-        assertEquals(4, a+b);
+        assertEquals(5, a+b);
     }
 
     @After
